@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+    font-family: serif;
+}
+
+.titlesection::before{
+    content:"";
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/background.jpg) no-repeat center center/cover;
+    opacity: 1;
+    z-index: -1;
+}
+
+.titlesection h1{
+    font-size: 70px;
+    font-weight: 150;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 0;
+    color: white;
+    font-family: serif;
+}
+
+.titlesection span{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin-top: 380px;
+    font-family: 'Sacramento', cursive;
+    color: white;
+}
+
+.hero-sec img{
+    border-radius: 50%;
+    height: 180px;
+    width:180px;
+    border: 2px solid;
+}
+
+.hero-sec{
+    background-color: rgb(227, 227, 227);
+}
+
+.button{
+    background-color: black;
+}
+
+.button:hover{
+    background-color: rgb(98, 96, 96);
+    border: 2px solid white;
+}
+
+.skill1,.skill2{
+    width: 33%;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.inline{
+    display: inline;
+}
+
+.inline img{
+    height: 40px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(227, 227, 227);
+}
